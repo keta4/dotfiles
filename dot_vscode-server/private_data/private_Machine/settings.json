@@ -36,10 +36,10 @@
         "--max-complexity=20"
     ],
 
-    // "[python]": {
+    "[python]": {
     //     "editor.defaultFormatter": "ms-python.black-formatter",
-    //     "editor.formatOnSave": true
-    // }
+        "editor.formatOnSave": true
+    },
 
     "python.analysis.typeCheckingMode": "basic"
 }
