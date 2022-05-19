@@ -22,12 +22,6 @@
     ],
     "python.defaultInterpreterPath": ".venv/bin/python",
     "python.formatting.provider": "black",
-    "python.formatting.blackPath": ".venv/bin/black",
-    "python.formatting.blackArgs": [
-        "--line-length",
-        "119"
-    ],
-    "editor.formatOnSave": true,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": ".venv/bin/flake8",
     "python.linting.flake8Args": [
@@ -36,5 +30,10 @@
         "119",
         "--max-complexity=20"
     ],
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+    }
 }
