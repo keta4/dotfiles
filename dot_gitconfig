@@ -1,0 +1,9 @@
+[user]
+	name = keta4
+	email = 82580781+keta4@users.noreply.github.com
+[ghq]
+	user = keta4
+[init]
+	defaultBranch = main
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager-core.exe
