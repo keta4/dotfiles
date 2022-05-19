@@ -27,6 +27,7 @@
         "--line-length",
         "119"
     ],
+    "editor.formatOnSave": true,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Path": ".venv/bin/flake8",
     "python.linting.flake8Args": [
@@ -35,6 +36,5 @@
         "119",
         "--max-complexity=20"
     ],
-    "python.analysis.typeCheckingMode": "basic",
-    "editor.formatOnSave": true
+    "python.analysis.typeCheckingMode": "basic"
 }
