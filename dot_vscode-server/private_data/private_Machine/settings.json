@@ -7,11 +7,6 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.minimap.enabled": false,
     "editor.mouseWheelZoom": true,
-    "python.venvFolders": [
-        "\".venv\""
-    ],
-    "python.defaultInterpreterPath": ".venv/bin/python",
-    "python.analysis.typeCheckingMode": "basic",
     "workbench.colorTheme": "GitHub Dark Default",
     "workbench.iconTheme": "material-icon-theme",
     "editor.bracketPairColorization.enabled": true,
@@ -21,5 +16,13 @@
     "workbench.tree.indent": 16,
     "workbench.tree.renderIndentGuides": "always",
     "editor.cursorSmoothCaretAnimation": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "python.venvFolders": [
+        "\".venv\""
+    ],
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.formatting.provider": "black",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.analysis.typeCheckingMode": "basic"
 }
