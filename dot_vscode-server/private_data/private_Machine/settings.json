@@ -20,21 +20,30 @@
     "python.venvFolders": [
         "\".venv\""
     ],
-    "python.defaultInterpreterPath": ".venv/bin/python",
+    // "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
     "python.formatting.provider": "black",
-    "python.formatting.blackPath": ".venv/bin/black",
-    "python.formatting.blackArgs": [
-        "--line-length",
-        "119"
-    ],
+    // "python.formatting.blackPath": ".venv/bin/black",
+    "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
+    // "python.formatting.blackArgs": [
+    //     "--line-length",
+    //     "88"
+    // ],
     "python.linting.flake8Enabled": true,
-    "python.linting.flake8Path": ".venv/bin/flake8",
-    "python.linting.flake8Args": [
-        "--ignore=W293, W504",
-        "--max-line-length",
-        "119",
-        "--max-complexity=20"
-    ],
+    // "python.linting.flake8Path": ".venv/bin/flake8",
+    "python.linting.flake8Path": "${workspaceFolder}/.venv/bin/pflake8",
+    // "python.linting.flake8Args": [
+        // incompatible with black: E203,W503,W504
+        // E203: Whitespace before ':'
+        // W503: Line break occurred before a binary operator
+        // W504: Line break occurred after a binary operator
+        // F401: import not used
+        // E231: space after "," (black: not exists, flake8: exists)
+        // "--ignore=E203,W503,W504,F401,E231,E501,E402,F841,E302,E305",
+        // "--max-line-length",
+        // "88",
+        // "--max-complexity=10"
+    // ],
 
     "[python]": {
     //     "editor.defaultFormatter": "ms-python.black-formatter",
